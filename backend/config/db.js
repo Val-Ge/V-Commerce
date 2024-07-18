@@ -10,6 +10,7 @@ const connectDB = async () => {
             useNewUrlParser: true,
             // use the unified topology engine to avoid deprecation warnings
             useUnifiedTopology: true,
+            
         });
         console.log('MongoDB connected');
     } catch (error) {

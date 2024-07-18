@@ -7,6 +7,9 @@ const connectDB = require('./config/db');
 
 const userRoutes = require('./routes/userRoutes');
 
+const generateToken = require('./utils/generateToken');
+
+
 //load env variable into process.env
 dotenv.config();
 
